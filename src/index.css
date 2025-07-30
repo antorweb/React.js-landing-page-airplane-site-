@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@utility container {  margin-inline: auto}
+
+
+@theme{
+  /* font */
+  --font-roboto : "Roboto", sans-serif;
+  --font-poppins :"Poppins", sans-serif;
+
+  /* color */
+  --color-main : #1F1926;
+  --color-primary:#5927E5;
+}
