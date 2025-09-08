@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="container">
             <div className='flex justify-between  pt-[66px] pb-[42px]'>
 
-                <div><img src={footerimg} alt="footer-img" />
+                <Link to={'/'}><img src={footerimg} alt="footer-img" />
                 <div className='w-[199px] pt-[20px]'><p className='text-[16px] font-normal font-poppins text-white'>Discover the world with us. We provide
 the best travel experiences with
 affordable prices.</p></div>
-                </div>
+                </Link>
 
                 <div className='flex flex-col'>
                     <div><h2 className='text-[16px] font-medium font-poppins text-white'>Quick Links</h2></div>

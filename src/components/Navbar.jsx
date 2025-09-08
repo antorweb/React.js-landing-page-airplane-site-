@@ -11,9 +11,7 @@ const Navbar = () => {
     <section className='py-[26px]'>
         <div className="container">
             <div className="navbar_row flex justify-between items-center">
-                <div>
-                    <img src={logo} alt="" />
-                </div>
+                <Link to={'/'}>  <img src={logo} alt="" />  </Link>
                 <div className=''>
                 <ul className='flex gap-[32px]'>
                     <li><Link className='text-[16px] font-normal font-roboto text-main'>Home</Link></li>
@@ -32,8 +30,8 @@ const Navbar = () => {
 
                 <Link className='py-[10px] px-[20px] bg-[#5927E5] rounded-[4px]'><p className='text-base font-normal  font-roboto text-[#fff]'>Login</p></Link>
                 <div className='flex  items-center  relative'>
-                <input  className='w-[118px] border  py-[10px] px-[20px] text-base font-normal font-roboto text-[#808080]' type="text" placeholder='search'  />
-                <IoIosSearch className='text-[18px] absolute left-[83px]' />
+                <input  className='w-[118px] border  py-[10px] px-[20px] overflow-hidden text-base font-normal font-roboto text-[#808080]' type="text" placeholder='search'  />
+                <IoIosSearch className='text-[18px] absolute left-[96px]' />
 
                 </div>
 
